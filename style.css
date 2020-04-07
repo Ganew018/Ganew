@@ -72,9 +72,8 @@ img {
 .click {
                 font-size: 14px;
                 font-weight: bold;
-                text-transform: uppercase;
                 width: 100%;
-                padding: 25px 40px;
+                padding: 25px 30px;
                 color: white;
                 outline: none;
                 border: none;
