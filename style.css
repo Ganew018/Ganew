@@ -72,7 +72,7 @@ img {
 .click {
     background-color: #083E9E;
     cursor: pointer;
-    width: 300px; 
+    width: 100%; 
     height: 45px;
     color: white;
     font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
@@ -80,6 +80,11 @@ img {
     border-bottom-left-radius: 0;
     outline: none;
     border: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px 40px;
+    
+    
 }
 
 a {
