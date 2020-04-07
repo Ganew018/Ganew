@@ -62,7 +62,7 @@ img {
 }
 
 
-.click {
+button {
                 font-size: 14px;
                 font-weight: bold;
                 text-transform: uppercase;
@@ -75,7 +75,7 @@ img {
                 border-bottom-left-radius: 0;
                 background-color: #083E9E;
                 cursor: pointer;
-}
+            }
 
 a {
     color: #0c0d95;
