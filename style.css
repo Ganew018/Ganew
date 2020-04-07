@@ -86,3 +86,12 @@ a {
     color: #0c0d95;
     text-decoration: none;
 }
+
+
+input {
+                    padding: 16px;
+                    font-size: 100%;
+                    border: none;
+                    border-radius : .25rem;
+                    background-color: #edf2f7
+                }
