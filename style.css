@@ -17,6 +17,7 @@ body {
     padding-left: 90px;
     padding-bottom: 20px;
     padding-top: 20px;
+    cursor: pointer;
 
     }
 img {
@@ -73,7 +74,7 @@ img {
                 font-size: 14px;
                 font-weight: bold;
                 width: 100%;
-                padding: 25px 30px;
+                padding: 25px 15px;
                 color: white;
                 outline: none;
                 border: none;
