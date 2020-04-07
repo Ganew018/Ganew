@@ -54,7 +54,7 @@ img {
 .box {
     width: 300px;
     height: 45px;
-    border-radius: .25rem;
+    border-radius: 1px;
     padding-left: 12px;
 
     background-color: #edf2f7;
