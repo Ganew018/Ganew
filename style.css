@@ -27,9 +27,8 @@ img {
 .container {
                 background-color: white;
                 padding: 30px 20px 40px 40px;
-                border-bottom-right-radius: 15px;
-                border-top-right-radius: 15px;
-                border-top-left-radius: 15px;
+                border-radius: 1.25rem;
+                border-bottom-left-radius: 0;
     
 }
     
