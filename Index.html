@@ -3,66 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>piggyvest.com/register</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/ico" href="https://res.cloudinary.com/ganew/image/upload/v1586222170/favicon_ooym6s.ico" />
-    
+    <title>Document</title>
+   
 </head>
 <body>
-    <div>
-        <div class="img">
-        <img src="https://res.cloudinary.com/ganew/image/upload/v1586147984/piggy_i8tf4l.png" alt="piggyvest" />
-        </div>
-            <div class="container">
-        <strong>
-                <div class="container-header">
-                <h2>Create a Secure Account</h2>
-                </div>
-            <div class="container-header2">
-                <p>Welcome to the future of Savings & Investments</p>
-            </div>
-        <div>
-     
-                <label for="fname" class="lists">Full Name</label><br>
-                <input type="Full Name" placeholder="Full Name" class="box"/><br><br>
-                <label for="Email" class="lists">Email Address</label><br>
-                <input type="Email Address" placeholder="Email Address" class="box"/><br><br>
-                <label for="Phone No" class="lists">Phone Number</label><br>
-                <input type="Phone Number" placeholder="Phone Number" class="box"/> <br><br>
-                <label for="Password" class="lists">Password</label><br>
-                <input type="Password" placeholder="Password" class="box"/><br><br>
-                <label for="RPorPC" class="lists">Referrer Phone or Promo Code (Optional)</label><br>  
-                <input type="Referrer Phone Or Code" placeholder="Referrer Phone Or Code" class="box"/><br><br>
-                <label for="RPorPC" class="lists">How Did You Hear About Us? (Optional)</label><br>  
-        </div>
-        <div>   
-            <select class="box2">
-                <option>Click to Select</option>
-                <option>Facebook</option>
-                <option>Twitter</option>
-                <option>Instagram</option>
-                <option>Friend/Family/Coworker Referral</option>
-                <option>Google Search</option>
-                <option>Google playstore</option>
-                <option>Online Blog</option>
-                <option>Local Newsapaper</option>
-                <option>At an event</option>
-                <option>Other</option>
-          </select><br><br>
-        </div>
-        
-        <div>
-            <button class="click"><strong>CREATE ACCOUNT</strong></button><br><br>
-        </div>
-    </div>
-     
-    
-    </div>
-    <div>
-        <footer > 
-          <br><br>  <p><a href="https://dashboard.piggyvest.com/login">Already have an account ? Log In</a></p>
-        </footer>
-    </strong>
-    </div>
+    <h1>Hello World !!!</h1>
+  
+        <script>
+
+                const Data = [
+                    {
+                        Principal: 2500,
+                        Time: 1.8
+                    },
+                    {
+                    Principal: 1000,
+                    Time: 5
+                    },
+                    {
+                    Principal: 3000,
+                    Time: 1
+                    },
+                    {
+                    Principal: 2000,
+                    Time: 3
+                    }
+                ];
+
+                let rate;
+                    const interestCalculator = (array) => {
+                    const interestData = array.map(item => {
+                    const {
+                        Principal,
+                        Time
+                    } = item;
+                        if (Principal >= 2500 && Time >= 1 && Time < 3) {
+                        rate = 3;
+                        } else if (Principal >= 2500 && Time >= 3) {
+                        rate = 4;
+                    } else if (Principal < 2500 || Time <= 1) {
+                        rate = 2;
+                    } else {
+                    rate = 1;
+                    }
+
+                    const interest = (Principal * rate * Time) / 100;
+
+                        item.interest = interest;
+                        item.rate = rate;
+
+                        return item;
+                    });
+
+                    return interestData;
+                    }
+
+                console.log(interestCalculator(Data));
+
+        </script>
+ 
 </body>
 </html>
